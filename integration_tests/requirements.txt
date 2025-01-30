@@ -4,3 +4,5 @@ dbt-redshift~=1.0.0
 dbt-postgres~=1.0.0
 dbt-spark~=1.0.0
 dbt-spark[PyHive]~=1.0.0
+snowflake-connector-python>=3.13.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
